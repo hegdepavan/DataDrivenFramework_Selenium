@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.testcases.VerifyPreviewNetIncomeSum">
+        <methods>
+          <include name="accessBSC"/>
+          <include name="verifyPreviewNetIncomeSum" invocation-numbers="0"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.testcases.VerifyPreviewNetIncomeSum -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
