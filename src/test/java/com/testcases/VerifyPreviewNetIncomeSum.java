@@ -45,6 +45,7 @@ public String testcaseName="VerifyPreviewNetIncomeSum";
 		scrollToElement(BSC_InputPage.BASE_PAY_AMOUNT_Xpath);
 		
 		System.out.println("BAse"+data.get("AnnualBasePayAmount").trim());
+		scrollToElement(BSC_InputPage.BASE_PAY_AMOUNT_Xpath);
 		type(BSC_InputPage.BASE_PAY_AMOUNT_Xpath, data.get("AnnualBasePayAmount").trim());
 		setDropdownValue(BSC_InputPage.BASE_PAY_TYPE_Xpath, data.get("BasePayIs").trim());
 		//add atc rows 

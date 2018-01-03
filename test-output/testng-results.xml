@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="197363" started-at="2018-01-03T12:12:23Z" finished-at="2018-01-03T12:15:40Z">
+  <suite name="Default suite" duration-ms="132349" started-at="2018-01-03T12:44:52Z" finished-at="2018-01-03T12:47:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="197363" started-at="2018-01-03T12:12:23Z" finished-at="2018-01-03T12:15:40Z">
+    <test name="Default test" duration-ms="132349" started-at="2018-01-03T12:44:52Z" finished-at="2018-01-03T12:47:05Z">
       <class name="com.testcases.VerifyPreviewNetIncomeSum">
-        <test-method status="PASS" signature="accessBSC()[pri:0, instance:com.testcases.VerifyPreviewNetIncomeSum@706a04ae]" name="accessBSC" is-config="true" duration-ms="102640" started-at="2018-01-03T17:42:23Z" finished-at="2018-01-03T17:44:05Z">
+        <test-method status="PASS" signature="accessBSC()[pri:0, instance:com.testcases.VerifyPreviewNetIncomeSum@706a04ae]" name="accessBSC" is-config="true" duration-ms="42311" started-at="2018-01-03T18:14:52Z" finished-at="2018-01-03T18:15:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accessBSC -->
-        <test-method status="FAIL" signature="verifyPreviewNetIncomeSum(java.util.Hashtable)[pri:0, instance:com.testcases.VerifyPreviewNetIncomeSum@706a04ae]" name="verifyPreviewNetIncomeSum" duration-ms="92622" started-at="2018-01-03T17:44:08Z" data-provider="getData" finished-at="2018-01-03T17:45:40Z">
+        <test-method status="FAIL" signature="verifyPreviewNetIncomeSum(java.util.Hashtable)[pri:0, instance:com.testcases.VerifyPreviewNetIncomeSum@706a04ae]" name="verifyPreviewNetIncomeSum" duration-ms="88575" started-at="2018-01-03T18:15:36Z" data-provider="getData" finished-at="2018-01-03T18:17:05Z">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
 	at com.base.GenericActions.isElementPresent(GenericActions.java:85)
 	at com.base.GenericActions.getElement(GenericActions.java:152)
-	at com.testcases.VerifyPreviewNetIncomeSum.verifyPreviewNetIncomeSum(VerifyPreviewNetIncomeSum.java:62)
+	at com.testcases.VerifyPreviewNetIncomeSum.verifyPreviewNetIncomeSum(VerifyPreviewNetIncomeSum.java:63)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -73,7 +73,7 @@ Driver info: driver.version: unknown
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPreviewNetIncomeSum -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testcases.VerifyPreviewNetIncomeSum@706a04ae]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-03T17:45:40Z" finished-at="2018-01-03T17:45:40Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testcases.VerifyPreviewNetIncomeSum@706a04ae]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-03T18:17:05Z" finished-at="2018-01-03T18:17:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
